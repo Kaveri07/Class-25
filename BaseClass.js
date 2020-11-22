@@ -21,7 +21,6 @@ class BaseClass {
 
         var pos = this.body.position;
         var angle = this.body.angle;
-        imageMode(CENTER);
         push();
         translate(pos.x, pos.y);
         rotate(angle);
